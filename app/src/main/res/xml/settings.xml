@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <com.prabandham.abhinav.mymusicplayer.MyPreferenceCategory
+       android:title="Settings">
+    <CheckBoxPreference
+        android:key="pref_check"
+        android:textColor="#ffffff"
+        android:title="Full Screen"
+        android:defaultValue="false"
+        />
+    <EditTextPreference
+        android:key="pref_edittext"
+        android:inputType="number"
+        android:title="Minimum Threshold"
+        android:summary="Minimum Threshold duration below which songs will not be displayed"
+        android:defaultValue="5000"
+        />
+    <ListPreference android:title="change background"
+        android:key="pref_list"
+        android:entries="@array/background"
+        android:entryValues="@array/background_values"
+        android:summary="Select background of your own choice"
+        />
+   </com.prabandham.abhinav.mymusicplayer.MyPreferenceCategory>
+</PreferenceScreen>

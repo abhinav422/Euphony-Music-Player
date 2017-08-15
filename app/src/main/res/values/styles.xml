@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:actionModeBackground">@color/yellow</item>
+        <item name="android:actionModeCloseDrawable">@drawable/tick</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:actionBarSize">50dp</item>
+        <item name="android:editTextColor">@color/white</item>
+         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:preferenceScreenStyle">@color/white</item>
+
+    </style>
+
+    <style name="viewPagerTitleStrip">
+
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="PreferenceScreen" parent="Theme.AppCompat">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorAccent">#ffffff</item>
+    </style>
+</resources>

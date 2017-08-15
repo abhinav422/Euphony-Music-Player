@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:text="Equalizer"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        app:ms_alignLabels="false"
+        app:ms_arrowColor="@color/white"
+        app:ms_arrowSize="16dp"
+        app:ms_baseColor="@color/white"
+        app:ms_enableErrorLabel="false"
+        app:ms_enableFloatingLabel="false"
+        app:ms_errorColor="@color/white"
+        app:ms_floatingLabelColor="@color/white"
+        app:ms_floatingLabelText="floating label"
+        app:ms_highlightColor="@color/white"
+        app:ms_multiline="false"
+        app:ms_thickness="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/seekBar2"
+                android:layout_width="0dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                android:layout_height="0dp"
+                android:progress="100"
+                app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/seekBar3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                android:progress="100"
+                app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/seekBar4"
+                android:layout_width="0dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                android:layout_height="0dp"
+                android:progress="100"
+                app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/seekBar5"
+                android:layout_width="0dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                android:layout_height="0dp"
+                android:progress="100"
+                app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/seekBar6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"
+                android:progress="100"
+                app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    </LinearLayout>
+   <RelativeLayout
+       android:id="@+id/rl4"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <it.beppi.knoblibrary.Knob
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:layout_centerInParent="true"
+           android:id="@+id/knob"
+           app:kAnimationBounciness="20"
+           app:kAnimationSpeed="10"
+           app:kBalloonValuesAnimation="fade"
+           app:kBalloonValuesRelativePosition="0.25"
+           app:kBalloonValuesTextSize="4sp"
+           app:kBorderWidth="0dp"
+           app:kCircularIndicatorColor="@color/green_a200"
+           app:kCircularIndicatorRelativePosition="0.55"
+           app:kCircularIndicatorRelativeRadius="0.03"
+           app:kDefaultState="10"
+           app:kFreeRotation="false"
+           app:kIndicatorWidth="0dp"
+           app:kKnobDrawable="@drawable/knob3"
+           app:kKnobDrawableRotates="false"
+           app:kMaxAngle="120"
+           app:kMinAngle="-120"
+           app:kNumberOfStates="30"
+           app:kSelectedStateMarkerColor="@color/green_a200"
+           app:kSelectedStateMarkerContinuous="true"
+           app:kShowBalloonValues="true"
+           app:kStateMarkersAccentColor="@color/grey_800"
+           app:kStateMarkersAccentPeriodicity="5"
+           app:kStateMarkersAccentRelativeLength="0.09"
+           app:kStateMarkersAccentWidth="2dp"
+           app:kStateMarkersColor="@color/grey_800"
+           app:kStateMarkersRelativeLength="0.08"
+           app:kStateMarkersWidth="1dp"
+           app:kSwipe="circular"
+           app:kSwipeSensitivityPixels="15" />
+   </RelativeLayout>
+</LinearLayout>

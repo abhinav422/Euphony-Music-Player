@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "382426396023",
+    "firebase_url": "https://euphony-music-player.firebaseio.com",
+    "project_id": "euphony-music-player",
+    "storage_bucket": "euphony-music-player.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382426396023:android:36227a0d574ce448",
+        "android_client_info": {
+          "package_name": "com.prabandham.abhinav.mymusicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382426396023-661ilum793bjt1aph37b2g30onunjvdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRr_uc5Ujyp6qmC8SLvO0DoMUNmAxSzpA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

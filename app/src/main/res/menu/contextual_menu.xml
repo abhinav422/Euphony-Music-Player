@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="play"
+        android:id="@+id/play"
+        android:icon="@drawable/playcontext"
+        app:showAsAction="always"
+        android:titleCondensed="play"></item>
+    <item
+        android:title="delete"
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        app:showAsAction="always"
+        android:titleCondensed="delete"></item>
+    <item android:title="add to playlist"
+        android:id="@+id/addtoplaylist"
+        android:icon="@drawable/playlist"
+        app:showAsAction="always"
+        android:titleCondensed="add to playlist"></item>
+    <item
+        android:title="share"
+        android:icon="@drawable/share"
+        app:showAsAction="always"
+        android:titleCondensed="Share"></item>
+</menu>

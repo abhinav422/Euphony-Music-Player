@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Add to playlist"
+        android:id="@+id/atp"
+        />
+    <item
+    android:title="Go to Album"
+        android:id="@+id/gtal"
+    />
+    <item android:title="Go to Artist"
+        android:id="@+id/gtar"
+        />
+    <item android:title="Equalizer"
+        android:id="@+id/eql"/>
+</menu>
